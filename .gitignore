@@ -1,0 +1,36 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# CMake build files
+build/
+CMakeLists.txt
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+cmake-build-debug
+
+
+# Qt Creator / CLion files
+*.user
+*.autosave
+.idea/
+.vscode/
+
+# Binaries
+*.exe
+*.o
+*.out
+*.a
+*.so
+*.dylib
+
+# Logs and temp files
+logs/
+tmp/
+*.log
+*.tmp
