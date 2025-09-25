@@ -234,7 +234,7 @@ void MainWindow::loadImage() {
             qDebug() << "треугольники отрисованы";
 
             // Первичная идентификация
-            TrianglesCatalogue trianglesCatalogue("/Users/penk/Desktop/catalog_4.5.txt");
+            TrianglesCatalogue trianglesCatalogue("catalog_4.5.txt");
 
             double eps = 0.01;
             stars = trianglesCatalogue.getHips(triangles, stars, eps);
